@@ -1,7 +1,7 @@
-📚 Documentación del Sistema de Gestión de Biblioteca Digital
-🧩 Arquitectura General
+#📚 Documentación del Sistema de Gestión de Biblioteca Digital
+#🧩 Arquitectura General
 El sistema está basado en una arquitectura de microservicios implementada con Spring Boot, donde cada funcionalidad principal se encuentra desacoplada en su propio servicio. Esto permite mayor mantenibilidad, escalabilidad y facilidad de despliegue.
-⚙️ Tecnologías Utilizadas
+#⚙️ Tecnologías Utilizadas
 Java 17+
 
 Spring Boot
@@ -35,7 +35,7 @@ Maven (gestión de dependencias)
              ▼                   ▼                 ▼                    ▼                  ▼                 ▼
          🗃️ db_usuarios    🗃️ db_cursos      🗃️ db_inscripciones   🗃️ db_pagos      🗃️ db_soporte     🗃️ db_evaluaciones
 
-🗂️ Microservicios
+#🗂️ Microservicios
 1. Servicio de Cursos
 Propósito: Gestiona los cursos disponibles en la biblioteca digital.
 Puerto: 8081
@@ -103,7 +103,7 @@ GET /api/v1/reportes
 POST /api/v1/reportes
 DELETE /api/v1/reportes/{id}
 
-🧱 Estructura del código por microservicio
+#🧱 Estructura del código por microservicio
 Cada microservicio sigue la siguiente convención de estructura de carpetas:
 
     src/
